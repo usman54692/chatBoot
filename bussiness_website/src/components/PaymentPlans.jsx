@@ -3,7 +3,7 @@ import React from "react";
 const PaymentPlans = ({stage}) => {
   return (
     <>
-      <div className="w-full max-w-[280px]  bg-white border border-gray-200 rounded-lg items-center  shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+      <div className="w-full max-w-sm  bg-white border border-gray-200 rounded-lg items-center  shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
         <h5 className="mb-4 text-xl font-medium text-center p-5 dark:text-gray-400 bg-Green text-white">
           {stage}
         </h5>
