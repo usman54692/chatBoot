@@ -1,0 +1,240 @@
+.background_Container {
+  background: linear-gradient(rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.744)),
+    url("https://images.pexels.com/photos/1253049/pexels-photo-1253049.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.content {
+  padding: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.btn {
+  background-color: green;
+  padding: 15px 30px;
+  border-radius: 30px;
+}
+/* General container setup */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Image container setup */
+.imageContainer {
+  flex: 1;
+  background: linear-gradient(rgba(0, 0, 0, 0.797), rgba(0, 0, 0, 0.1)),
+    url("https://images.pexels.com/photos/5669619/pexels-photo-5669619.jpeg?auto=compress&cs=tinysrgb&w=600");
+  width: 100%;
+  height: 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Text container setup */
+.textContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  color: white;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 640px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    gap: 15px;
+  }
+
+  .imageContainer {
+    width: 100%;
+    height: 250px; /* Adjust height to make it responsive */
+    background-position: center;
+    background-size: cover;
+  }
+
+  .textContainer {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .textContainer p {
+    font-size: 14px; /* Make text size smaller for mobile screens */
+  }
+
+  .flex {
+    flex-direction: column; /* Stack the buttons vertically */
+    gap: 10px;
+  }
+
+  .font-semibold {
+    font-size: 1rem; /* Adjust the font size */
+  }
+
+  .text-xl {
+    font-size: 1.1rem;
+  }
+}
+
+/* Medium-sized screens (Tablets) */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .imageContainer {
+    height: 300px; /* Slightly larger height for tablets */
+  }
+
+  .textContainer {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .textContainer p {
+    font-size: 15px;
+  }
+
+  .flex {
+    flex-direction: row; /* Keep the buttons side by side on tablets */
+    gap: 20px;
+  }
+
+  .font-semibold {
+    font-size: 1.1rem; /* Slightly larger font for readability */
+  }
+
+  .text-xl {
+    font-size: 1.2rem;
+  }
+}
+
+/* Larger screens (Desktops) */
+@media (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .imageContainer {
+    height: 100%; /* Full height for larger screens */
+  }
+
+  .textContainer {
+    padding: 40px;
+  }
+
+  .textContainer p {
+    font-size: 16px;
+  }
+
+  .flex {
+    flex-direction: row; /* Keep buttons side by side on large screens */
+  }
+
+  .font-semibold {
+    font-size: 1.2rem; /* Adjust font size for larger screens */
+  }
+
+  .text-xl {
+    font-size: 1.3rem;
+  }
+}
+
+
+
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+} */
+
+/* @media(width <430px ){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .imageContainer {
+        flex: 1;
+        background: linear-gradient(rgba(0, 0, 0, 0.797), rgba(0, 0, 0, 0.1)),
+          url("https://awaist.sg-host.com/wp-content/uploads/2024/05/law_firm-1024x548-768x411-1.jpg");
+        width: 100%;
+        height: 100%;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+}
+@media(width <640px ){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .imageContainer {
+        flex: 1;
+        background: linear-gradient(rgba(0, 0, 0, 0.797), rgba(0, 0, 0, 0.1)),
+          url("https://awaist.sg-host.com/wp-content/uploads/2024/05/law_firm-1024x548-768x411-1.jpg");
+        width: 100%;
+        height: 100%;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+}
+@media(width <786px ){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .imageContainer {
+        flex: 1;
+        background: linear-gradient(rgba(0, 0, 0, 0.797), rgba(0, 0, 0, 0.1)),
+          url("https://awaist.sg-host.com/wp-content/uploads/2024/05/law_firm-1024x548-768x411-1.jpg");
+        width: 100%;
+        height: 100%;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+} */
+
+/* .imageContainer {
+  flex: 1;
+  background: linear-gradient(rgba(0, 0, 0, 0.797), rgba(0, 0, 0, 0.1)),
+    url("https://awaist.sg-host.com/wp-content/uploads/2024/05/law_firm-1024x548-768x411-1.jpg");
+  width: 100%;
+  height: 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.textContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+} */
