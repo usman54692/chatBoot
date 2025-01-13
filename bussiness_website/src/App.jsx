@@ -3,6 +3,9 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
+import SectionNotice from "./pages/SectionNotice";
+import CourtStage from "./pages/CourtStage";
+import ReviewsPage from "./pages/Reviews";
 function App() {
   const router = createBrowserRouter([
     {
@@ -10,8 +13,9 @@ function App() {
       element: <Layout />,
       children: [
         { path: "", element: <Home /> },
-        // { path: "about", element: <About /> },
-        // { path: "contact", element: <Contact /> },
+        { path: "/sections", element: <SectionNotice /> },
+        { path: "court", element: <CourtStage /> },
+        { path: "review", element: <ReviewsPage /> },
       ],
     },
   ]);

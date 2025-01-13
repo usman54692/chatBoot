@@ -11,6 +11,11 @@ module.exports = {
       colors: {
         'Green': '#49982f',
         "nav":"#2D3748",
+        "gry":'#4f4f4f',
+        "blackgray":"#2d3436",
+        "darkgray":"#353634",
+        "basedark":"#252624"
+
       },
     },
   },
