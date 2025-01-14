@@ -38,3 +38,23 @@ body {
     height: 100vh;
     padding: 0 10px;
 }
+/* Change the navigation buttons to white */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ffffff; /* White color */
+}
+
+/* Optional: Adjust button hover effect */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #d1d5db; /* Light gray on hover */
+}
+
+/* Optional: Change the pagination bullets to white */
+.swiper-pagination-bullet {
+  background-color: #ffffff;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #d1d5db; /* Light gray for the active bullet */
+}

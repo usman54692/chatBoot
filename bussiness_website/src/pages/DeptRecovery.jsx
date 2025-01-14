@@ -28,35 +28,152 @@ const BailiffStage = () => {
         </h1>
       </div>
       {/*  */}
-       <section className={`${styles.container} px-10 py-10  `}>
-              <div className={`${styles.imageContainer}`}></div>
-              <div className={`${styles.textContainer} text-white`}>
-                <h1 className="text-justify">
-                REQUESTING POSSESSION (EVICTION)
-                  <br />
-                </h1>
-                <h4>All Applications Submitted Within 72 Hours</h4>
-                <p className="text-justify">
-                For the few tenants who do not comply with the possession order obtained at stage 2, we can take action to enforce the order and evict the tenant(s).
-                </p>
-                <p className="text-justify">
-                We apply to either the County Court for a Warrant or the High Court for a Writ.
-                </p>
-                <p className="text-justify">
-                A County Court Bailiff enforces a Warrant, and a Writ is enforced by High Court Enforcement.
-                </p>
-                <p className="text-justify">
-                A Warrant is cheaper but can take a few weeks to be executed. A Writ is more expensive but is usually executed within a few days.
-                </p>
-                <p className="text-justify">
-                At this stage, a County Court Bailiff or High Court Enforcement Officer/Agent will set a date and then evict the tenant(s).
-                </p>
-                
-                <a href="" className="text-Green">
-                <span className='text-white'>Call</span>  0800 118 4 118 for a FREE case review.
-                </a>
-              </div>
-            </section>
+      <section className="p-5">
+      <div className="flex flex-col md:flex-row gap-5 justify-center">
+        {/* First Div: "NO WIN, NO FEE" */}
+        <div className="bg-darkgray text-white p-6 rounded-lg shadow-lg hover:bg-basedark transition duration-300 flex-1">
+          <h2 className="text-xl font-semibold">
+            “NO WIN, NO FEE” PRE-LEGAL DEBT RECOVERY
+          </h2>
+          <p className="mt-4">
+            We provide a national “No Win, No Fee” Pre-Legal Debt Recovery
+            Service.
+          </p>
+          <p className="mt-2">
+            Once instructed, we pass the case to our High Court Enforcement
+            partners who then write to, email, phone, and/or visit the debtor to
+            either settle the debt in full or reach an agreed payment plan.
+          </p>
+          <p className="mt-2">
+            During this stage, a pre-legal letter is sent to the debtor warning
+            if they fail to make contact and agree to either settle the debt in
+            full or reach an agreed payment arrangement, further action will be
+            taken. This action may include obtaining a County Court Judgment
+            (CCJ) or other enforcement action.
+          </p>
+          <p className="mt-2">
+            If no meaningful contact or payment is made during this 7 to 14-day
+            pre-legal period, we will then help you through the process of taking
+            further action, if appropriate, and not limited to obtaining a CCJ
+            (County Court Judgement).
+          </p>
+          <p className="mt-2">Fee for Debt Recovery is 15% of whatever we collect.</p>
+          <p className="mt-4 font-bold">Call us now on 0800 118 4 118</p>
+        </div>
+
+        {/* Second Div: "NO TRACE, NO FEE" */}
+        <div className="bg-darkgray text-white p-6 rounded-lg shadow-lg hover:bg-basedark transition duration-300 flex-1">
+          <h2 className="text-xl font-semibold">
+            “NO TRACE, NO FEE” TENANT TRACING
+          </h2>
+          <p className="mt-4">
+            We provide a national “No Trace, No Fee” National Tenant Tracing
+            Service.
+          </p>
+          <p className="mt-2">
+            A tenant may leave a property at the end of the tenancy without
+            providing a forwarding address.
+          </p>
+          <p className="mt-2">
+            A number of these will have built up significant debts to the
+            landlord, such as not paying rent, legal costs, or property damage.
+          </p>
+          <p className="mt-2">
+            Some tenants deliberately withhold providing a forwarding address in
+            an attempt to avoid making payment. Moving without leaving a “digital
+            footprint” is now very difficult. Our highly skilled trace team locate
+            absconded tenants, and we then proceed with debt recovery action.
+          </p>
+          <p className="mt-2">Tenant Tracing from £75</p>
+          <p className="mt-4 font-bold">CALL 0800 118 4 118</p>
+          <a
+            href="tel:08001184118"
+            className="inline-block mt-4 bg-Green text-white py-2 px-6 rounded-lg hover:bg-darkgray transition duration-300"
+          >
+            Call Now
+          </a>
+        </div>
+      </div>
+    </section>
+            {/*  */}
+            <section className="p-5">
+      
+
+      {/* New Section for "OBTAINING A COUNTY COURT JUDGMENT (CCJ)" */}
+      <div className="flex flex-col md:flex-row gap-5 justify-center mt-10">
+        {/* First Div: CCJ Information */}
+        <div className="bg-basedark text-white p-6 rounded-lg shadow-lg hover:bg-darkgray transition duration-300 flex-1">
+          <h2 className="text-xl font-semibold">OBTAINING A COUNTY COURT JUDGMENT (CCJ)</h2>
+          <p className="mt-4">
+            After the Pre-Legal phase, the next stage in the legal process is to
+            issue court proceedings via the County Court to obtain a County Court
+            Judgment (a CCJ).
+          </p>
+          <p className="mt-2">
+            This is a formal process where the debtor will be sent a form from the
+            County Court requiring them to pay the debt and costs within 14 days.
+          </p>
+          <p className="mt-2">
+            Our specialist High Court Enforcement solicitors will obtain a County
+            Court Judgment (CCJ) for you.
+          </p>
+          <p className="mt-2">
+            Our Fee for obtaining a County Court Judgment (CCJ) is £400, plus the
+            relevant court fee. Our applications are submitted within 72 hours of
+            payment.
+          </p>
+        </div>
+
+        {/* Second Div: Court Fee Table */}
+        <div className="bg-basedark text-white p-6 rounded-lg shadow-lg hover:bg-darkgray transition duration-300 flex-1">
+          <h2 className="text-xl font-semibold">COURT FEES</h2>
+          <table className="mt-4 w-full text-left table-auto">
+            <thead>
+              <tr>
+                <th className="px-4 py-2 border-b">CLAIM AMOUNT</th>
+                <th className="px-4 py-2 border-b">COURT FEE</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="px-4 py-2 border-b">Up to £300</td>
+                <td className="px-4 py-2 border-b">£35</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-2 border-b">£300.01 to £500</td>
+                <td className="px-4 py-2 border-b">£50</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-2 border-b">£500.01 to £1,000</td>
+                <td className="px-4 py-2 border-b">£70</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-2 border-b">£1,000.01 to £1,500</td>
+                <td className="px-4 py-2 border-b">£80</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-2 border-b">£1,500.01 to £3,000</td>
+                <td className="px-4 py-2 border-b">£115</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-2 border-b">£3,000.01 to £5,000</td>
+                <td className="px-4 py-2 border-b">£205</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-2 border-b">£5,000.01 to £10,000</td>
+                <td className="px-4 py-2 border-b">£455</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-2 border-b">£10,000.01 to £100,000</td>
+                <td className="px-4 py-2 border-b">5% of the claim</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+
             {/*  */}
             <section className="px-4 py-20 flex flex-col lg:flex-row items-stretch bg-darkgray text-white space-y-6 lg:space-y-0 lg:space-x-6">
   {/* First Div: Bailiff/Warrant Stage Fees */}

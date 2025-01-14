@@ -10,7 +10,9 @@ import "swiper/css/navigation";
 // Import required modules
 import { FreeMode, Pagination, Navigation } from "swiper/modules";
 
-const App = () => {
+// Import custom styles
+
+const ReviewsSlider = () => {
   return (
     <div className="container max-w-6xl md:px-4 px-2">
       <Swiper
@@ -36,4 +38,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default ReviewsSlider;

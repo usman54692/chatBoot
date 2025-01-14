@@ -36,41 +36,47 @@ const CourtStage = () => {
             className="w-full sm:w-1/2 bg-cover bg-center h-72 sm:h-96"
             style={{
               backgroundImage:
-                "url('https://images.pexels.com/photos/6077587/pexels-photo-6077587.jpeg?auto=compress&cs=tinysrgb&w=600')",
+                "url('https://images.pexels.com/photos/5668882/pexels-photo-5668882.jpeg?auto=compress&cs=tinysrgb&w=600')",
+              backgroundSize:"cover",
+              height:"100vh"
+                
             }}
           >
             {/* Image as background */}
           </div>
 
           <div className="w-full sm:w-1/2 px-4 sm:px-8 mt-4 sm:mt-0">
-            <p className="text-justify mb-4 text-white">
-              In all cases of possession, a written Notice must be provided.
+            <p className="text-justify mb-4 font-bold text-white">
+            Accelerated Possession, Rent Arrears or Standard Possession
+            All Applications Submitted Within 10 Days
               <br />
             </p>
             <p className="text-justify mb-4 text-white">
-              We ensure all Notices are in the prescribed format, filled out
-              correctly, and properly served.
+            If a tenant does not leave or resolve issues by the date stated in either the Section 8 or Section 21 Notice, we can commence possession action via the County Court to obtain a Possession Order, which will specify the date by which the tenant(s) must leave the property.
             </p>
             <p className="text-justify mb-4 text-white">
-              A defective Notice is one of the most common reasons a possession
-              claim is dismissed (thrown out of court).
+            During this stage, we complete and submit the full possession application bundle to the court, including all required evidence. An SRA-regulated Landlord and Tenant expert eviction solicitor will represent you in court to present your case.
             </p>
             <p className="text-justify mb-4 text-white">
-              It is crucial to get this stage right. We correctly prepare and/or
-              legally serve either a Section 8 Notice, a Section 21 Notice, or
-              both at the same time.
+            Possession can only be granted by the court; gaining possession by any other means could be unlawful and constitute a criminal offence.
             </p>
             <p className="text-justify mb-4 text-white">
-              Which Notice(s) are served depends on the type of tenancy in place
-              and the circumstances of the case.
+            We will obtain a possession order for you. We are experts in Accelerated Possession, Unpaid Rent/Rent Arrears Possession, and Crime/Anti-Social Behaviour Possession.
             </p>
             <p className="text-justify mb-4 text-white">
-              Being served an eviction Notice is when most tenants realise how
-              serious the situation is.
+            There are different methods by which possession applications can be made; the method used will depend on the circumstances.
+            </p>
+            <p className="text-justify mb-4 text-white">
+            An SRA-regulated Landlord and Tenant Law expert eviction solicitor will represent you in court to present your case.
+            </p>
+            <p className="text-justify mb-4 text-white">
+            We will support you throughout this entire stage via phone, email, and message.
+           </p>
+            <p className="text-justify mb-4 text-white">
+            *If you, your agent, or solicitor have already served notices, we can check them for you before proceeding through this stage. We can also apply to transfer the case to the High Court; call us for further details*
             </p>
             <a href="" className="text-Green mt-2 block">
-              Being served an eviction Notice is when most tenants realise how
-              serious the situation is.
+            We prepare and submit the necessary court paperwork (N5b England, N5b Wales, N5, N119, Accelerated Possession, PCOL)
             </a>
           </div>
         </section>
@@ -94,9 +100,10 @@ const CourtStage = () => {
 
         {/*  */}
         <div className="py-10">
-          <h1 className="text-Green text-lg md:text-3xl text-center font-semibold">
-            TENANT
-            <span className="text-white"> EVICTION</span>
+          <h1 className="text-Green text-lg md:text-3xl text-center font-semibold space-x-1">
+            FEES
+            <span className="text-white"> AND </span>
+
             SERVICES
           </h1>
         </div>
@@ -104,108 +111,134 @@ const CourtStage = () => {
 
         <section className="bg-darkgray py-10">
           <div className="flex flex-col md:flex-row px-6 md:px-14 gap-6 md:gap-4">
-            <div className="bg-basedark flex-1 p-6">
-              <div className="flex justify-center mb-14">
-                <CiStickyNote className="text-Green text-3xl" />
-              </div>
-              <h1 className="text-left text-2xl font-bold text-white mb-4">
-                COURT STAGE FEES
-              </h1>
-              <h3 className="text-left text-xl font-semibold text-white mb-4">
-                Section 21 Notices
-              </h3>
-              <h4 className="text-left text-lg text-white mb-4">
-                Section 21 Notice – We Legally Serve: £195
-              </h4>
-              <h1 className="text-left text-2xl font-bold text-white mb-4">
-                Section 8 Notices
-              </h1>
-              <p className="text-justify text-white mb-4">
-                Section 8 Notice (Rent Only) – We Legally Serve: £195
-              </p>
-              <p className="text-justify text-white mb-4">
-                Section 8 Notice (Non-Rent) – We Legally Serve: £250
-              </p>
-              <h1 className="text-left text-2xl font-bold text-white mb-4">
-                Section 8 and Section 21 Notices Together
-              </h1>
-              <p className="text-justify text-white mb-4">
-                Both Section 8 and Section 21 Notices Served Together – £350
-              </p>
-              <p className="text-justify text-white mb-4">
-                It is best practice to serve both notices together as it
-                provides options.
-              </p>
+          <div className="bg-basedark flex-1 p-6">
+  <div className="flex justify-center mb-10">
+    <CiStickyNote className="text-Green text-3xl" />
+  </div>
+  <h1 className="text-center text-3xl font-bold text-white mb-6">
+    COURT STAGE SERVICE
+  </h1>
+  <div className="max-w-4xl mx-auto">
+    <h2 className="text-left text-2xl font-semibold text-white mb-4">
+      Court Possession Order Service
+    </h2>
+    <p className="text-justify text-white mb-6">
+      We will obtain a possession order for you.
+    </p>
+    <p className="text-justify text-white mb-6">
+      The complete possession order application bundle is submitted to court,
+      with all the evidence required to obtain a possession order attached
+      with it.
+    </p>
+    <p className="text-justify text-white mb-6">
+      An SRA regulated, Landlord and Tenant Law eviction solicitor represents
+      you in court to present your case.
+    </p>
+    <p className="text-justify text-white mb-6">
+      You receive your possession order issued by the courts, ordering the
+      tenant to leave.
+    </p>
 
-              <p className="text-justify text-white mb-4">
-                Tax Included. No Hidden Fees. Eviction Guaranteed. Money Back
-                Guarantee. Price Match Available.
-              </p>
-              <h1 className="text-left text-2xl font-bold text-white mb-4">
-                Service Includes:
-              </h1>
-              <ul className="list-disc pl-6 text-white">
-                <li className="mb-2">
-                  Preparation and/or Service of a Section 8 Notice, a Section 21
-                  Notice/Form 6A or both together.
-                </li>
-                <li className="mb-2">
-                  A strongly worded but professional warning letter.
-                </li>
-                <li className="mb-2">
-                  You receive relevant copies of: the Notice(s); Certificate of
-                  Service; Proof of Postage; Sworn Affidavits and/or Signed
-                  Statement of Service.
-                </li>
-                <li className="mb-2">
-                  All Notices are issued within 48 hours of payment, excluding
-                  Sundays and public holidays.
-                </li>
-              </ul>
-            </div>
+    <h2 className="text-left text-2xl font-semibold text-white mb-4">
+      Court Stage/Possession Order Service Includes:
+    </h2>
+    <ul className="list-disc pl-6 text-white space-y-3">
+      <li>
+        Preparation of the complete court application bundle.
+      </li>
+      <li>
+        The complete court bundle is sent to the landlord to sign within 10
+        working days.
+      </li>
+      <li>We deal with any tenant defence.</li>
+      <li>
+        An SRA regulated Landlord and Tenant Law expert solicitor represents
+        you in court at one court hearing.
+      </li>
+      <li>
+        Preparation and completion of all relevant court paperwork.
+      </li>
+      <li>
+        A Staffed Landlord Helpline open 7 days a week.
+      </li>
+      <li>
+        We have a 99% success rate – we don’t submit cases we can’t win and we
+        submit everything we need to win at the outset.
+      </li>
+      <li>
+        We submit everything required to obtain possession with the
+        application, including all copies of any document/evidence, such as
+        Witness Statements, Rent Statements, Court Forms, AST’s, Notices,
+        Certificates of Service, Gas/Deposit Certificates, EPC etc.
+      </li>
+      <li>
+        Phone, email, and message support for the whole duration of the claim.
+      </li>
+    </ul>
 
-            <div className="border border-white flex-1 p-6">
-              <div className="flex justify-center mb-14">
-                <FaServicestack className="text-Green text-3xl" />
-              </div>
-              <h1 className="text-left text-2xl font-bold text-white mb-4">
-                NOTICE STAGE SERVICE
-              </h1>
-              <h2 className="text-left text-xl font-semibold text-white mb-4">
-                Options available for Section 8 and Section 21 Notices:
-              </h2>
-              <p className="text-justify text-white mb-4">
-                You Serve PDF Copy Only’ We prepare the Section 8 Notice,
-                Section 21 Notice (Form 6A) or both together, with all the
-                relevant details. You receive a copy as a PDF to
-                download/email/print/serve, as required. The Notice(s) remain
-                the responsibility of the landlord(s) to Serve Legally. This is
-                not recommended for everyone.
-              </p>
+    <p className="text-center text-white mt-6">
+      <strong>Tax Included. No Hidden Costs. 24/7 Call Centre.</strong>
+    </p>
+  </div>
+</div>
+{/*  */}
 
-              <p className="text-justify text-white mb-4">
-                We Legally Serve’ This is our standard default service and is by
-                far the most popular choice. We follow Civil Procedure Part 6
-                Rules when serving our Notices – it cannot be argued the Notice
-                wasn’t received – legally – it was served when we say it was. We
-                serve documents in the same way as speeding tickets, using the
-                Court system. You receive Proof of Postage and a Certificate of
-                Service.
-              </p>
+<div className="bg-basedark flex-1 p-6">
+  <div className="flex justify-center mb-14">
+    <CiBookmarkMinus className="text-Green text-3xl" />
+  </div>
+  <h1 className="text-left text-2xl font-bold text-white mb-4">
+    COURT STAGE FEES
+  </h1>
+  <p className="text-justify text-white mb-4">
+    Court Possession Order Fees
+  </p>
+  <p className="text-justify text-white mb-4">
+    ‘Accelerated’ Possession Order via Section 21/Form 6A – £795
+  </p>
+  <p className="text-justify text-white mb-4">
+    Accelerated Possession is a relatively quick route to obtaining a
+    possession order. The court makes its decision initially by examining
+    the submitted documents. A court hearing is not always required. The
+    court can however request a hearing at any time. Solicitor
+    Representation at court is included – £795.
+  </p>
+  <p className="text-justify text-white mb-4">
+    ‘Standard’ Possession Order via Section 8 ‘Rent Only’ – £895
+  </p>
+  <p className="text-justify text-white mb-4">
+    For ‘Rent Only’ Section 8 Notices – where the only ‘Grounds’ or reasons
+    for possession are that rent is owed. Solicitor Representation at court
+    is included – £895.
+  </p>
+  <p className="text-justify text-white mb-4">
+    “Standard” Possession Order via Section 8 for any ‘Non-Rent’ Notice –
+    £995
+  </p>
+  <p className="text-justify text-white mb-4">
+    For any Section 8 Notice where any ‘Ground’ or reason other than rent is
+    stated. This is usually where a Possession Order is obtained via Section
+    8 for crime or disorder. Solicitor Representation at court is included –
+    £995.
+  </p>
+  <p className="text-justify text-white mb-4">
+    Court Fee of £391 is also payable.
+  </p>
+  <p className="text-justify text-white mb-4">
+    We are experts in Accelerated Possession, Unpaid Rent/Rent Arrears
+    Possession and Crime/Anti-Social Behaviour Possession.
+  </p>
+  <p className="text-justify text-white mb-4">
+    All court applications are completed within 10 working days of payment.
+  </p>
+  <p className="text-justify text-white mb-4">
+    No Hidden Fees. Eviction Guaranteed. Money Back Guarantee. Price Match
+    Available.
+  </p>
+</div>
 
-              <p className="text-justify text-white mb-4">
-                ‘We Serve by Hand’ Our nationwide network of Association of
-                British Investigators registered, professional and experienced
-                field agents provide a reliable and confidential service. 75% of
-                instructions are completed within 24 hours, most within 3 days
-                and all within 10 days. A field agent will attempt to serve the
-                Notice(s) at least three times, at different times of the day,
-                and at least one visit will be made out of hours. You receive
-                either a Certificate of Service, a Statement of Service or a
-                Sworn Affidavit confirming the date and time the Notice(s) were
-                served.
-              </p>
-            </div>
+
+
           </div>
 
           <div className="flex justify-center gap-4 mt-10">
@@ -228,83 +261,90 @@ const CourtStage = () => {
 
         <section className="bg-darkgray py-10">
           <div className="flex flex-col md:flex-row px-6 md:px-14 gap-6 md:gap-4">
-            <div className="bg-basedark flex-1 p-6">
-              <div className="flex justify-center mb-14">
-                <CiBookmarkMinus className="text-Green text-3xl" />
-              </div>
-              <h1 className="text-left text-2xl font-bold text-white mb-4">
-                WHY US
-              </h1>
-              <p className="text-justify text-white mb-4">
-                Our methods are tried, tested and continuously improved.
-              </p>
-              <p className="text-justify text-white mb-4">
-                We ensure ALL the work is done BEFORE we get to court,
-                mitigating any risks involved.
-              </p>
-              <p className="text-justify text-white mb-4">
-                We don’t take on cases we can't win. We have a 99% success rate
-                and 10,000’s of happy customers.
-              </p>
-              <p className="text-justify text-white mb-4">
-                We are experts in Accelerated Possession, Unpaid Rent/Rent
-                Arrears Possession and Crime/Anti-Social Behaviour Possession.
-              </p>
-              <p className="text-justify text-white mb-4">
-                Service delivery is within 48 hours of payment being made.
-              </p>
-              <p className="text-justify text-white mb-4">
-                We deploy a Full Stack Microsoft and Zoho data processing and
-                security solution.
-              </p>
-              <p className="text-justify text-white mb-4">
-                We are a member of the Property Redress Scheme, providing
-                enhanced customer support to all our clients.
-              </p>
-              <p className="text-justify text-white mb-4">
-                All our work is insured.
-              </p>
-              <p className="text-justify text-white mb-4">
-                We guarantee eviction.
-              </p>
-            </div>
+        
 
-            <div className="border border-white flex-1 p-6">
-              <div className="flex justify-center mb-14">
-                <IoCall className="text-Green text-3xl" />
-              </div>
-              <h1 className="text-left text-2xl font-bold text-white mb-4">
-                CALL 0800 118 4 118
-              </h1>
-              <p className="text-justify text-white mb-4">
-                Call for a FREE case review now! We can still help where:
-              </p>
-              <ul className="list-disc pl-6 text-white mb-4">
-                <li>No tenancy agreement exists.</li>
-                <li>There are issues with tenant fees.</li>
-                <li>There are issues with the landlord’s licence.</li>
-                <li>
-                  The deposit wasn’t protected or was incorrectly protected.
-                </li>
-                <li>
-                  The deposit prescribed information wasn’t served or was
-                  incorrectly served.
-                </li>
-                <li>
-                  There are issues with the EPC, Gas Safety Certificate or How
-                  to Rent Guide.
-                </li>
-                <li>A solicitor is involved.</li>
-              </ul>
-              <p className="text-justify text-white mb-4">
-                <strong>
-                  If you, your Agent or Solicitor have already served a Notice,
-                  we can check it for you before proceeding through the Court
-                  Stage. We can also apply to transfer the case up to the High
-                  Court, call us for further details.
-                </strong>
-              </p>
-            </div>
+
+{/*  */}
+<div className="bg-basedark flex-1 p-6">
+  <div className="flex justify-center mb-10">
+    <CiBookmarkMinus className="text-Green text-3xl" />
+  </div>
+  <h1 className="text-center text-3xl font-bold text-white mb-6">
+    WHY US?
+  </h1>
+  <div className="max-w-4xl mx-auto">
+    <ul className="list-disc pl-6 text-white space-y-4">
+      <li>
+        Our methods are tried, tested, and continuously improved.
+      </li>
+      <li>
+        We ensure ALL the work is done BEFORE we get to court, mitigating any risks involved.
+      </li>
+      <li>
+        We don’t take on cases we can’t win. We have a 99% success rate and 10,000’s of happy customers.
+      </li>
+      <li>
+        We are experts in Accelerated Possession, Unpaid Rent/Rent Arrears Possession, and Crime/Anti-Social Behaviour Possession.
+      </li>
+      <li>
+        Service delivery is within 10 working days of payment being made.
+      </li>
+      <li>
+        We deploy a Full Stack Microsoft and Zoho data processing and security solution.
+      </li>
+      <li>
+        We are members of the Property Redress Scheme.
+      </li>
+      <li>
+        We are fully insured.
+      </li>
+      <li>
+        We guarantee eviction.
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+{/*  */}
+
+
+<div className="bg-basedark flex-1 p-6">
+  <div className="text-center mb-8">
+    <div className="mb-4">
+      <IoCall className="text-Green text-4xl font-bold mx-auto" />
+    </div>
+    <h1 className="text-3xl font-bold text-white mb-2">CALL 0800 118 4 118</h1>
+    <p className="text-xl text-white">
+      Call <span className="font-semibold">0800 118 4 118</span> for a <span className="font-bold">FREE case review</span> now!
+    </p>
+  </div>
+  <div className="max-w-4xl mx-auto">
+    <h2 className="text-2xl font-semibold text-white mb-4">We can still help where:</h2>
+    <ul className="list-disc pl-6 text-white space-y-4">
+      <li>There is no written tenancy agreement.</li>
+      <li>There are issues with tenant fees.</li>
+      <li>There are issues with the landlord’s licence.</li>
+      <li>The deposit wasn’t protected or was incorrectly protected.</li>
+      <li>
+        The deposit prescribed information wasn’t served or was incorrectly
+        served.
+      </li>
+      <li>
+        There are issues with the EPC, Gas Safety Certificate, or How to Rent
+        Guide.
+      </li>
+      <li>There is a solicitor involved.</li>
+    </ul>
+    <p className="text-white mt-6">
+      <span className="font-bold">*</span> In some cases, we can apply to transfer the case up to 
+      <span className="font-semibold"> The High Court</span>. Transferring the case up can make things quicker at the next stage but is at the discretion of 
+      <span className="font-semibold"> The County Court</span> and is usually more expensive. Call for further details.
+    </p>
+  </div>
+</div>
+
           </div>
 
           <div className="flex justify-center gap-4 mt-10">
