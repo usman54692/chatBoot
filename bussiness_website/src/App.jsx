@@ -8,6 +8,10 @@ import CourtStage from "./pages/CourtStage";
 import ReviewsPage from "./pages/Reviews";
 import BailiffStage from "./pages/BailiffStage";
 import DeptRecovery from "./pages/DeptRecovery";
+import LandlordAdvice from "./pages/CutomerAreas/LandlordAdvice";
+import RentProtection from "./pages/CutomerAreas/RentProtection";
+import Contact from "./pages/CutomerAreas/Contact";
+import About from "./pages/CutomerAreas/About";
 function App() {
   const router = createBrowserRouter([
     {
@@ -20,6 +24,10 @@ function App() {
         { path: "review", element: <ReviewsPage /> },
         { path: "bailiff", element: <BailiffStage /> },
         { path: "dept_recovery", element: <DeptRecovery /> },
+        { path: "landlord", element: <LandlordAdvice /> },
+        { path: "rent-protection", element: <RentProtection /> },
+        { path: "contact", element: <Contact /> },
+        { path: "about", element: <About /> },
       ],
     },
   ]);

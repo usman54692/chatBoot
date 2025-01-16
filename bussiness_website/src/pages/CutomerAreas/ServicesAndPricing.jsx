@@ -1,183 +1,173 @@
-import React from "react";
+import React from 'react'
 import styles from "../Styles/Home.module.css";
-import PaymentPlans from "../components/PaymentPlans";
-import Reviews from "../components/Reviews.jsx";
-import Navbar from "../components/Navbar.jsx";
+import review from '../components/Reviews.jsx'
+import ReviewsSlider from '../components/Reviews.jsx';
 import { GrSecure } from "react-icons/gr";
 
-const Home = () => {
+
+
+const BailiffStage = () => {
   return (
     <>
-      <section className={`${styles.background_Container}`}>
-        <div className={`${styles.content} text-center`}>
-          <h1 className="md:text-3xl text-lg font-bold uppercase ">
-            Evictions Start Here
-          </h1>
-          <div>
-            <button className={`${styles.btn}`}>START NOW</button>
-          </div>
-        </div>
-      </section>
-
-      {/*  */}
-      <div className="py-10">
-        <h1 className="text-Green text-lg md:text-3xl text-center font-semibold">
-          <span className="text-white">EXPERTS IN</span> OBTAINING POSSESSION
-          FOR LANDLORDS
-        </h1>
-      </div>
-
-      {/*  */}
-
-      <section className={`${styles.container} px-10  `}>
-        <div className={`${styles.imageContainer}`}></div>
-        <div className={`${styles.textContainer} text-white`}>
-          <p className="text-justify">
-            Now part of Sentinel Solutions Ltd. Express Evictions are based at
-            the iconic City Tower offices within Manchester’s Central Business
-            District right in the heart of the city. We have dealt with almost
-            every eviction scenario imaginable. Our dedicated team of committed
-            professionals advises and assists clients with residential tenancy
-            evictions and collect associated debts and costs nationally.
-            Specialists in our field – we advise, mediate, litigate and manage
-            national delivery of our core services. <br />
-          </p>
-          <p className="text-justify">
-            We have been providing outstanding solutions which minimise costs
-            and reduce losses for almost 2 decades.
-          </p>
-          <p className="text-justify">
-            Our services are available throughout England and Wales.
-          </p>
-          <p className="text-justify">
-            There are 3 stages to the eviction process with each step having a
-            fixed price – with NO HIDDEN COSTS.
-          </p>
-          <p className="text-justify">
-            Contact us for further help, information or to book a FREE CASE
-            REVIEW.
-          </p>
-          <p className="text-justify">
-            Click here to read our advice page on ‘How to Evict a Tenant in
-            2023’.
-          </p>
-          <a href="" className="text-Green">
-            Click here to read our advice page on ‘How to Evict a Tenant in
-            2023’.
-          </a>
-        </div>
-      </section>
-
-      {/*  */}
-
-      <div className="py-10 text-center">
-        <button
-          type="button"
-          class="py-2.5 px-5 me-2 mb-2 text-sm font-medium focus:outline-none bg-Green text-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-        >
-          0 800 118 4 118
-        </button>
-        <button
-          type="button"
-          class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-white focus:outline-none bg-Green rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-        >
-          Book Consultation
-        </button>
-      </div>
-
-      {/*  */}
-
-      <div className="py-10">
-        <h1 className="text-Green text-lg md:text-3xl text-center font-semibold">
-          TENANT
-          <span className="text-white"> EVICTION</span>
-          SERVICES
-        </h1>
-      </div>
-
-      {/*  */}
-      <div className=" px-10 flex flex-wrap justify-center gap-3">
-        <PaymentPlans stage="Stage 1" />
-        <PaymentPlans stage=" Stage 2" />
-        <PaymentPlans stage=" Stage 3" />
-      </div>
-
-      {/*  */}
-      <div className="py-10 text-center">
-        <button
-          type="button"
-          class="py-3 px-7 me-2 mb-2 text-sm font-medium focus:outline-none bg-Green text-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-        >
-          0 800 118 4 118
-        </button>
-        <button
-          type="button"
-          class="py-3 px-7 me-2 mb-2 text-sm font-medium text-white focus:outline-none bg-Green rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-        >
-          Book Consultation
-        </button>
-      </div>
-
-      {/* Reviews */}
-
-      <div className="flex justify-center py-20">
-        <Reviews />
-      </div>
-
-      {/*  tanet*/}
-
-      <section className="bg-darkgray px-4 py-8">
-        <div className="text-center p-10 flex flex-col gap-10 text-white">
-          <h1 className="font-semibold text-2xl text-Green">
-            RENT <span className="text-white">PROTECTION</span> GUARANTEE
-          </h1>
-          <p className="text-sm md:text-base">
-            Non-payment of rent and legal costs arising from tenancy breaches,
-            such as anti-social behaviour and tenant fraud, are two of the
-            biggest financial risks to landlords.
-          </p>
-          <p className="text-sm md:text-base">
-            We have teamed up with leading landlord insurer RentGuard to protect
-            landlords against both rent loss and legal costs.
-          </p>
-        </div>
-
-        <div className="flex flex-col md:flex-row gap-8 md:gap-20 p-5 md:p-20">
-          {/* Left Section with Image */}
-          <div className="md:flex-1 border border-white flex items-center justify-center">
-            <img
-              src="https://expressevictions.co.uk/wp-content/uploads/2020/12/Express-Evictions-Grey-E1-Light-1-1536x588.png"
-              alt="Express Evictions"
-              className="w-full h-auto"
-            />
-          </div>
-
-          {/* Right Section with Text and Button */}
-          <div className="md:flex-1 flex justify-center items-center bg-basedark text-white p-5 rounded-lg">
-            <div className="text-center flex flex-col gap-6">
-              <h1 className="font-semibold text-xl">
-                PROTECTION AGAINST NON-PAYMENT OF RENT
-              </h1>
-              <h4 className="text-lg font-medium">PEACE OF MIND FROM £45</h4>
-              <h3 className="text-lg font-medium">
-                Rent Guarantee and Legal Expenses Cover
-              </h3>
-              <div>
-                <button
-                  type="button"
-                  className="py-3 px-7 text-sm font-medium bg-Green text-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-4 focus:ring-gray-100 transition duration-300"
-                >
-                  0800 118 4 118
-                </button>
+    <div>
+       <section className={`${styles.background_Container}`}>
+              <div className={`${styles.content} text-center`}>
+                <h1 className="md:text-3xl text-lg font-bold uppercase ">
+                  Evictions Start Here
+                </h1>
+                <div>
+                  <button className={`${styles.btn}`}>START NOW</button>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
+            </section>
+            {/*  */}
+            <div className="py-10">
+        <h1 className="text-Green text-lg md:text-3xl text-center font-semibold">
+        REQUESTING 
+          <span className="text-white">POSSESSION</span> REQUESTING 
+        </h1>
+      </div>
+      {/*  */}
+      <div class="container mx-auto px-4 py-6">
+  <div class="text-center mb-8">
+    <h2 class="text-3xl font-semibold">Our Fixed Fee Services</h2>
+    <p class="text-lg mt-2">We offer fixed fees for our most popular services, providing our clients savings and clarity.</p>
+    <p class="text-lg mt-2">If you have any queries please get in touch with us, one of our customer service agents will be happy to help.</p>
+  </div>
 
-      {/* about section  */}
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-      <section className="bg-darkgray px-4 py-8 my-10">
+    <div class="bg-white shadow-md rounded-lg p-4 text-center">
+      <h3 class="text-xl font-semibold">SECTION 21 NOTICE</h3>
+      <p class="mt-2">£195</p>
+      <p>Prepare and Serve a Section 21 Notice.</p>
+    </div>
+    
+    <div class="bg-white shadow-md rounded-lg p-4 text-center">
+      <h3 class="text-xl font-semibold">SECTION 8 NOTICE (Rent Only)</h3>
+      <p class="mt-2">£195</p>
+      <p>Prepare and Serve a Section 8 Notice for Rent Arrears only.</p>
+    </div>
+
+
+    <div class="bg-white shadow-md rounded-lg p-4 text-center">
+      <h3 class="text-xl font-semibold">SECTION 8 NOTICE (Non Rent)</h3>
+      <p class="mt-2">£250</p>
+      <p>Prepare and Serve a Section 8 Notice for any Ground other than rent.</p>
+    </div>
+
+    
+    <div class="bg-white shadow-md rounded-lg p-4 text-center">
+      <h3 class="text-xl font-semibold">BOTH SECTION 8 AND 21 NOTICES</h3>
+      <p class="mt-2">From £350</p>
+      <p>Prepare and Serve both Section 8 and Section 21 Notices together.</p>
+    </div>
+
+    
+    <div class="bg-white shadow-md rounded-lg p-4 text-center">
+      <h3 class="text-xl font-semibold">WARNING LETTER</h3>
+      <p class="mt-2">From: £195</p>
+      <p>Prepare and Serve any tenancy letter.</p>
+    </div>
+
+    <div class="bg-white shadow-md rounded-lg p-4 text-center">
+      <h3 class="text-xl font-semibold">DRAFT WITNESS STATEMENT</h3>
+      <p class="mt-2">From £750</p>
+      <p>Prepare a draft witness statement.</p>
+    </div>
+
+    
+     Add similar blocks for each other service as required
+    
+  </div>
+
+  <div class="mt-8 text-center">
+    <p class="text-lg">For anything not listed, please contact us.</p>
+  </div>
+</div>
+
+
+
+            {/*  */}
+            <section className="px-4 py-20 flex flex-col lg:flex-row items-stretch bg-darkgray text-white space-y-6 lg:space-y-0 lg:space-x-6">
+  {/* First Div: Bailiff/Warrant Stage Fees */}
+  <div className="lg:w-1/2 border border-white p-6 lg:p-8 flex flex-col">
+    <h1 className="text-2xl lg:text-3xl font-bold mb-4">BAILIFF/WARRANT STAGE FEES</h1>
+    <ul className="list-disc pl-6 space-y-4">
+      <li>
+        <strong>County Court Bailiff Eviction – £300</strong>
+        <p className="mt-2">Court Fee of £143 is also payable. No hidden costs.</p>
+        <p>Eviction is usually carried out within 3 to 12 weeks.</p>
+      </li>
+      <li>
+        <strong>High Court Enforcement Eviction – £1195</strong>
+        <p className="mt-2">All inclusive of tax and court fees.</p>
+        <p>Eviction is usually carried out within 1 to 3 weeks.</p>
+      </li>
+    </ul>
+    <p className="mt-6">
+      All warrant/writ applications are completed within 48 hours of payment, excluding Sunday.
+    </p>
+    <p className="mt-2">No Hidden Fees. Eviction Guaranteed. Money Back Guarantee. Price Match Available.</p>
+  </div>
+
+  {/* Second Div: Bailiff/Warrant Stage Service */}
+  <div className="lg:w-1/2 bg-basedark p-6 lg:p-8 flex flex-col">
+    <h1 className="text-2xl lg:text-3xl font-bold mb-4">BAILIFF/WARRANT STAGE SERVICE</h1>
+    <p className="mb-4">We will arrange a bailiff to evict the tenant for you.</p>
+    <h2 className="text-xl lg:text-2xl font-semibold mb-4">The service includes the following:</h2>
+    <ul className="list-disc pl-6 space-y-4">
+      <li>Preparation and completion of all relevant court paperwork.</li>
+      <li>Arranging for bailiffs or enforcement officers/agents to evict the tenant(s).</li>
+      <li>All Writ/Warrant applications are submitted within 48 hours of payment.</li>
+      <li>We support and advise you for the duration.</li>
+    </ul>
+  </div>
+</section>
+{/*  */}
+<section className="px-4 py-8 flex flex-col lg:flex-row items-stretch bg-darkgray text-white space-y-6 lg:space-y-0 lg:space-x-6">
+  {/* First Div: WHY US */}
+  <div className="lg:w-1/2 border border-white p-6 lg:p-8 flex flex-col">
+    <h1 className="text-2xl lg:text-3xl font-bold mb-4">WHY US?</h1>
+    <ul className="list-disc pl-6 space-y-4">
+      <li>Our methods are tried, tested, and continuously improved.</li>
+      <li>We ensure ALL the work is done BEFORE we apply, mitigating any risks involved.</li>
+      <li>We have a 99% success rate and 10,000’s of happy customers.</li>
+      <li>Service delivery is within 48 hours of payment being made.</li>
+      <li>We deploy a Microsoft Full Stack data processing and security solution.</li>
+      <li>We are members of the Property Redress Scheme.</li>
+      <li>All our work is insured.</li>
+      <li>We guarantee eviction.</li>
+    </ul>
+  </div>
+
+  {/* Second Div: Call to Action */}
+  <div className="lg:w-1/2 bg-basedark p-6 lg:p-8 flex flex-col">
+    <h1 className="text-2xl lg:text-3xl font-bold mb-4">CALL 0800 118 4 118</h1>
+    <p className="text-lg mb-4">
+      Call <span className="font-bold">0800 118 4 118</span> for a <span className="font-bold">FREE case review</span> now!
+    </p>
+    <p className="text-lg">
+      <strong>
+        If you have already obtained a court order and want to proceed with an
+        eviction, we may be able to organise one in just a few days; please
+        contact us for further details.
+      </strong>
+    </p>
+  </div>
+</section>
+{/*  */}
+
+<div className="px-4 sm:px-6 lg:px-8 py-20">
+  <div className="max-w-7xl mx-auto">
+    <div className="w-full overflow-hidden">
+      <ReviewsSlider />
+    </div>
+  </div>
+</div>
+
+{/* about */}
+<section className="bg-darkgray px-4 py-8 my-10">
         <div className="text-center p-10 flex flex-col gap-10 text-white">
           <h1 className="font-semibold text-2xl text-Green">
             ABOUT <span className="text-white">OUR</span> SERVICES
@@ -224,17 +214,16 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/*  */}
 
-      {/* secure informed */}
-
-      <section className="bg-basedark py-10 px-4">
+      <section className="bg-basedark py-20 px-4">
   <div className="flex flex-col md:flex-row gap-10">
-    {/* First Section */}
-    <div className="flex-1 flex flex-col items-center justify-center text-white text-center bg-darkgray p-6 rounded-lg">
-      <div className="h-20 w-20 bg-gray-700 rounded-full flex justify-center items-center mb-4">
+    {/* First Section with Border */}
+    <div className="flex-1 flex flex-col items-center justify-center text-white text-center bg-basedark p-6 rounded-lg border border-white">
+      <div className="h-20 w-20 bg-darkgray rounded-full flex justify-center items-center mb-4">
         <GrSecure className="text-white text-2xl" />
       </div>
-      <span className="text-4xl font-semibold mb-2 text-Green ">Secure</span>
+      <span className="text-4xl font-semibold mb-4 text-Green">Secure</span>
       <p className="text-sm md:text-base leading-relaxed text-justify">
         We deploy a bespoke integrated Microsoft IT solution that brings
         together best-in-class data, communication, and security products by
@@ -250,12 +239,12 @@ const Home = () => {
       </p>
     </div>
 
-    {/* Second Section */}
-    <div className="flex-1 flex flex-col items-center justify-center text-white text-center bg-basedark p-6 rounded-lg">
-      <div className="h-20 w-20 bg-gray-700 rounded-full flex justify-center items-center mb-4">
+    {/* Second Section without Border */}
+    <div className="flex-1 flex flex-col items-center justify-center text-white text-center bg-darkgray p-6 rounded-lg">
+      <div className="h-20 w-20 bg-basedark rounded-full flex justify-center items-center mb-4">
         <GrSecure className="text-white text-2xl" />
       </div>
-      <span className="text-4xl font-semibold mb-2 text-Green ">Informed</span>
+      <span className="text-4xl font-semibold mb-4 text-Green">Informed</span>
       <p className="text-sm md:text-base leading-relaxed text-justify">
         We deploy a bespoke integrated Microsoft IT solution that brings
         together best-in-class data, communication, and security products by
@@ -273,16 +262,15 @@ const Home = () => {
   </div>
 </section>
 
-{/* trusted swift */}
-
-<section className="bg-basedark py-10 px-4">
+{/* Trusted Swift */}
+<section className="bg-basedark py-10 px-4 ">
   <div className="flex flex-col md:flex-row gap-10">
-    {/* First Section */}
-    <div className="flex-1 flex flex-col items-center justify-center text-white text-center bg-basedark p-6 rounded-lg">
-      <div className="h-20 w-20 bg-gray-700 rounded-full flex justify-center items-center mb-4">
+    {/* First Section without Border */}
+    <div className="flex-1 flex flex-col items-center justify-center text-white text-center bg-darkgray p-6 rounded-lg">
+      <div className="h-20 w-20 bg-basedark rounded-full flex justify-center items-center mb-4">
         <GrSecure className="text-white text-2xl" />
       </div>
-      <span className="text-4xl font-semibold mb-2 text-Green ">Trusted</span>
+      <span className="text-4xl font-semibold mb-4 text-Green">Trusted</span>
       <p className="text-sm md:text-base leading-relaxed text-justify">
         We deploy a bespoke integrated Microsoft IT solution that brings
         together best-in-class data, communication, and security products by
@@ -298,13 +286,13 @@ const Home = () => {
       </p>
     </div>
 
-    {/* Second Section */}
-    <div className="flex-1 flex flex-col items-center justify-center text-white text-center bg-darkgray p-6 rounded-lg">
-      <div className="h-20 w-20 bg-gray-700 rounded-full flex justify-center items-center mb-4">
+    {/* Second Section with Border */}
+    <div className="flex-1 flex flex-col items-center justify-center text-white text-center  p-6 rounded-lg border border-white">
+      <div className="h-20 w-20 bg-darkgray rounded-full flex justify-center items-center mb-4">
         <GrSecure className="text-white text-2xl" />
       </div>
-      <span className="text-4xl font-semibold mb-2 text-Green ">Swift</span>
-      <p className="text-sm md:text-base text-justify leading-relaxed">
+      <span className="text-4xl font-semibold mb-4 text-Green">Swift</span>
+      <p className="text-sm md:text-base leading-relaxed text-justify">
         We deploy a bespoke integrated Microsoft IT solution that brings
         together best-in-class data, communication, and security products by
         Microsoft, along with advanced systems and device management capabilities
@@ -321,9 +309,8 @@ const Home = () => {
   </div>
 </section>
 
-{/* links */}
-
-<section className="py-10 px-4 bg-basedark mt-10">
+      {/* links*/}
+      <section className="py-20 px-4 bg-basedark mt-10">
   {/* Title */}
   <div className="text-center mb-6">
     <h1 className="text-2xl font-semibold text-white">Powered and Secured by:</h1>
@@ -362,11 +349,8 @@ const Home = () => {
     </div>
   </div>
 </section>
-
-
-{/*  last section */}
-
-<section className="py-10 px-4 bg-darkgray mt-10">
+{/*  */}
+<section className="py-20 px-4 bg-darkgray mt-10 ">
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
     {/* Tenants Section */}
     <div className="flex flex-col justify-center items-center p-6 bg-basedark rounded-lg shadow-md text-center">
@@ -406,8 +390,7 @@ const Home = () => {
   </div>
 </section>
 {/*  */}
-
-<section class="flex flex-col items-center justify-center p-6">
+<section class="flex flex-col items-center justify-center p-6 py-20">
    <div class="text-center">
       <h1 class="text-3xl font-bold mb-4 text-white capitalize">
          Speak to an eviction expert 365 days a year
@@ -426,8 +409,23 @@ const Home = () => {
 
 
 
-    </>
-  );
-};
 
-export default Home;
+
+
+
+            
+
+
+            
+
+
+
+    </div>
+
+    
+      
+    </>
+  )
+}
+
+export default BailiffStage

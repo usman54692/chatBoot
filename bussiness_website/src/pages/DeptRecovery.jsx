@@ -23,8 +23,8 @@ const BailiffStage = () => {
             {/*  */}
             <div className="py-10">
         <h1 className="text-Green text-lg md:text-3xl text-center font-semibold">
-        REQUESTING 
-          <span className="text-white">POSSESSION</span> REQUESTING 
+        NATIONAL
+          <span className="text-white"> DEBT RECOVERY </span> SERVICE   
         </h1>
       </div>
       {/*  */}

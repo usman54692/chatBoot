@@ -130,26 +130,34 @@ function Navbar() {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="landlord"
                         class="block px-4 py-2 hover:bg-Green text-white dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Settings
+                        LandLord-Advice
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="rent-protection"
                         class="block px-4 py-2 hover:bg-Green text-white dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Earnings
+                        Rent-Protection
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="about"
                         class="block px-4 py-2 hover:bg-Green text-white dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Sign out
+                        About
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="contact"
+                        class="block px-4 py-2 hover:bg-Green text-white dark:hover:bg-gray-600 dark:hover:text-white"
+                      >
+                        Contact
                       </a>
                     </li>
                   </ul>

@@ -26,8 +26,8 @@ const CourtStage = () => {
 
         <div className="py-10">
           <h1 className="text-white text-lg md:text-3xl text-center font-semibold">
-            SECTION 8 NOTICE <span className="text-Green"> AND </span>
-            SECTION 21 NOTICE
+          <span className="text-Green"> TENANT EVICTION </span>
+          COURT ORDERS
           </h1>
         </div>
         {/*  */}
@@ -75,9 +75,7 @@ const CourtStage = () => {
             <p className="text-justify mb-4 text-white">
             *If you, your agent, or solicitor have already served notices, we can check them for you before proceeding through this stage. We can also apply to transfer the case to the High Court; call us for further details*
             </p>
-            <a href="" className="text-Green mt-2 block">
-            We prepare and submit the necessary court paperwork (N5b England, N5b Wales, N5, N119, Accelerated Possession, PCOL)
-            </a>
+           
           </div>
         </section>
 
@@ -88,7 +86,7 @@ const CourtStage = () => {
             type="button"
             class="py-2.5 px-5 me-2 mb-2 text-sm font-medium focus:outline-none bg-Green text-white rounded-full  hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
           >
-            0 800 118 4 118
+           Call 0 800 118 4 118
           </button>
           <button
             type="button"
@@ -449,7 +447,7 @@ const CourtStage = () => {
             <div className="h-20 w-20 bg-gray-700 rounded-full flex justify-center items-center mb-4">
               <GrSecure className="text-white text-2xl" />
             </div>
-            <span className="text-4xl font-semibold mb-2 text-Green ">Secure</span>
+            <span className="text-4xl font-semibold mb-2 text-Green ">Informed</span>
             <p className="text-sm md:text-base leading-relaxed text-justify">
               We deploy a bespoke integrated Microsoft IT solution that brings
               together best-in-class data, communication, and security products by
@@ -477,7 +475,7 @@ const CourtStage = () => {
             <div className="h-20 w-20 bg-gray-700 rounded-full flex justify-center items-center mb-4">
               <GrSecure className="text-white text-2xl" />
             </div>
-            <span className="text-4xl font-semibold mb-2 text-Green ">Secure</span>
+            <span className="text-4xl font-semibold mb-2 text-Green ">Trusted</span>
             <p className="text-sm md:text-base leading-relaxed text-justify">
               We deploy a bespoke integrated Microsoft IT solution that brings
               together best-in-class data, communication, and security products by
@@ -498,7 +496,7 @@ const CourtStage = () => {
             <div className="h-20 w-20 bg-gray-700 rounded-full flex justify-center items-center mb-4">
               <GrSecure className="text-white text-2xl" />
             </div>
-            <span className="text-4xl font-semibold mb-2 text-Green ">Secure</span>
+            <span className="text-4xl font-semibold mb-2 text-Green ">Swift</span>
             <p className="text-sm md:text-base text-justify leading-relaxed">
               We deploy a bespoke integrated Microsoft IT solution that brings
               together best-in-class data, communication, and security products by

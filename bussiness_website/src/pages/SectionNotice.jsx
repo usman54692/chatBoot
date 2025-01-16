@@ -68,10 +68,10 @@ const SectionNotice = () => {
               Being served an eviction Notice is when most tenants realise how
               serious the situation is.
             </p>
-            <a href="" className="text-Green mt-2 block">
-              Being served an eviction Notice is when most tenants realise how
-              serious the situation is.
-            </a>
+            <p className="text-justify mb-4 text-white">
+            Over half of tenants resolve any issues, pay the rent, or leave the property after receiving a Notice from us.
+            </p>
+           
           </div>
         </section>
 
@@ -82,7 +82,7 @@ const SectionNotice = () => {
             type="button"
             class="py-2.5 px-5 me-2 mb-2 text-sm font-medium focus:outline-none bg-Green text-white rounded-full  hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
           >
-            0 800 118 4 118
+           Call  0 800 118 4 118
           </button>
           <button
             type="button"
@@ -95,8 +95,8 @@ const SectionNotice = () => {
         {/*  */}
         <div className="py-10">
           <h1 className="text-Green text-lg md:text-3xl text-center font-semibold">
-            TENANT
-            <span className="text-white"> EVICTION</span>
+            FEES
+            <span className="text-white"> AND </span>
             SERVICES
           </h1>
         </div>
@@ -213,7 +213,7 @@ const SectionNotice = () => {
               type="button"
               class="py-2.5 px-5 text-sm font-medium text-white bg-Green rounded-full hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
             >
-              0 800 118 4 118
+             Call 0 800 118 4 118
             </button>
             <button
               type="button"
@@ -312,7 +312,7 @@ const SectionNotice = () => {
               type="button"
               class="py-2.5 px-5 text-sm font-medium text-white bg-Green rounded-full hover:bg-gray-100 hover:text-blue-700 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
             >
-              0 800 118 4 118
+            Call  0 800 118 4 118
             </button>
             <button
               type="button"
@@ -458,7 +458,7 @@ const SectionNotice = () => {
         <div className="flex flex-col md:flex-row gap-10">
           {/* First Section */}
           <div className="flex-1 flex flex-col items-center justify-center text-white text-center bg-darkgray p-6 rounded-lg">
-            <div className="h-20 w-20 bg-gray-700 rounded-full flex justify-center items-center mb-4">
+            <div className="h-20 w-20 bg-basedark rounded-full flex justify-center items-center mb-4">
               <GrSecure className="text-white text-2xl" />
             </div>
             <span className="text-4xl font-semibold mb-2 text-Green ">Secure</span>
@@ -479,10 +479,10 @@ const SectionNotice = () => {
       
           {/* Second Section */}
           <div className="flex-1 flex flex-col items-center justify-center text-white text-center bg-basedark p-6 rounded-lg">
-            <div className="h-20 w-20 bg-gray-700 rounded-full flex justify-center items-center mb-4">
+            <div className="h-20 w-20 bg-darkgray rounded-full flex justify-center items-center mb-4">
               <GrSecure className="text-white text-2xl" />
             </div>
-            <span className="text-4xl font-semibold mb-2 text-Green ">Secure</span>
+            <span className="text-4xl font-semibold mb-2 text-Green ">Informed</span>
             <p className="text-sm md:text-base leading-relaxed text-justify">
               We deploy a bespoke integrated Microsoft IT solution that brings
               together best-in-class data, communication, and security products by
@@ -507,10 +507,10 @@ const SectionNotice = () => {
         <div className="flex flex-col md:flex-row gap-10">
           {/* First Section */}
           <div className="flex-1 flex flex-col items-center justify-center text-white text-center bg-basedark p-6 rounded-lg">
-            <div className="h-20 w-20 bg-gray-700 rounded-full flex justify-center items-center mb-4">
+            <div className="h-20 w-20 bg-darkgray rounded-full flex justify-center items-center mb-4">
               <GrSecure className="text-white text-2xl" />
             </div>
-            <span className="text-4xl font-semibold mb-2 text-Green ">Secure</span>
+            <span className="text-4xl font-semibold mb-2 text-Green ">Trusted</span>
             <p className="text-sm md:text-base leading-relaxed text-justify">
               We deploy a bespoke integrated Microsoft IT solution that brings
               together best-in-class data, communication, and security products by
@@ -528,10 +528,10 @@ const SectionNotice = () => {
       
           {/* Second Section */}
           <div className="flex-1 flex flex-col items-center justify-center text-white text-center bg-darkgray p-6 rounded-lg">
-            <div className="h-20 w-20 bg-gray-700 rounded-full flex justify-center items-center mb-4">
+            <div className="h-20 w-20 bg-basedark rounded-full flex justify-center items-center mb-4">
               <GrSecure className="text-white text-2xl" />
             </div>
-            <span className="text-4xl font-semibold mb-2 text-Green ">Secure</span>
+            <span className="text-4xl font-semibold mb-2 text-Green ">Swift</span>
             <p className="text-sm md:text-base text-justify leading-relaxed">
               We deploy a bespoke integrated Microsoft IT solution that brings
               together best-in-class data, communication, and security products by

@@ -24,7 +24,7 @@ const BailiffStage = () => {
             <div className="py-10">
         <h1 className="text-Green text-lg md:text-3xl text-center font-semibold">
         REQUESTING 
-          <span className="text-white">POSSESSION</span> REQUESTING 
+          <span className="text-white">POSSESSION</span> (EVICTIONS)
         </h1>
       </div>
       {/*  */}
@@ -58,6 +58,15 @@ const BailiffStage = () => {
               </div>
             </section>
             {/*  */}
+
+            <div className="py-10">
+        <h1 className="text-Green text-lg md:text-3xl text-center font-semibold">
+          <span className="text-white">FEES</span> AND
+          SERVICES
+        </h1>
+      </div>
+             {/*  */}
+
             <section className="px-4 py-20 flex flex-col lg:flex-row items-stretch bg-darkgray text-white space-y-6 lg:space-y-0 lg:space-x-6">
   {/* First Div: Bailiff/Warrant Stage Fees */}
   <div className="lg:w-1/2 border border-white p-6 lg:p-8 flex flex-col">
